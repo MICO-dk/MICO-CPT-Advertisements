@@ -132,7 +132,7 @@ class MICO_CPT_Advertisements {
 			$args = array(
 				'description'         => __( 'A list of advertisements', $this->plugin_slug ),
 				'labels'              => $labels,
-				'supports'            => array( 'title', 'thumbnail', 'revisions', ),
+				'supports'            => array( 'title', 'thumbnail', 'revisions', 'editor'),
 				'hierarchical'        => false,
 				'public'              => true,
 				'show_ui'             => true,
